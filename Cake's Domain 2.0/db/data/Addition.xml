@@ -145,5 +145,26 @@
     </Projectile>
     <DisplayId>Shybo Minion</DisplayId>
   </Object>
+   </Object>
+   <Object type="0xbab" id="Power">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x480</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>{equip.An_eerie_reminder_of_what_lays_in_the_depths_of_the_Shatter}</Description>
+    <ActivateOnEquip stat="28" amount="30">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="20" amount="50">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="0" amount="150">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="3" amount="150">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <FameBonus>5</FameBonus>
+    <feedPower>5000</feedPower>
+    <Soulbound/>
+	<RT/>
+    <DisplayId>{equip.The_Forgotten_Crown}</DisplayId>
+  </Object>
   
 </ExtData>
